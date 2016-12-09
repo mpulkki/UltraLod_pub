@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="RayTracer.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Voxelizer.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Mesher.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="MaterialSampler.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Sorter.cu">
+      <Filter>Src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SparseOctree.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Decimation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="UVMapper.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputationParams.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracer.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SparseOctree.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxelizer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesher.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Decimation.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSampler.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UVMapper.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputationParams.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorter.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{2e64c4fe-c94b-430f-a512-d0c37c4d4aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{186c0548-175b-40ca-b542-e16b0069f4f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
